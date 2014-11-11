@@ -1,10 +1,9 @@
 html, body {
 	width: 100%;
-	height: 100%;
 }
 
 html {
-	background: 
+	height: 100%;
 }
 
 body {
@@ -17,7 +16,7 @@ body {
 
 #layout-container {
 	height: 100%;
-	width: 85%;
+	width: 90%%;
 	margin: 0 auto;
 }
 
@@ -32,7 +31,6 @@ body {
 }
 
 .nav-bar {
-	width: 100%;
 	height: 100%;
 	background-color: #333;
 }
@@ -51,7 +49,7 @@ a {
 .list-clean a {
 	list-style-type: none;
 	text-decoration: none;
-	color: #000;
+	color: #ccccff;
 	margin: 0;
 	padding: 0;
 }
@@ -60,17 +58,17 @@ a {
 	float: right;
 }
 
-/*@media screen and (min-width: 600px) {*/
+@media screen and (min-width: 600px) {
 	.nav-button {
-		outline: solid 1px red;
 		display: inline-block;
 		margin-top: 5%;
+        text-transform: uppercase;
 	}
 	
 	.nav-button:last-child{
 		margin-right: 10px;
 	}
-/*}*/
+}
 
 /*@media screen and (max-width: 600px) {
 	.nav-list li {
@@ -100,4 +98,110 @@ a {
 	font-size: 24px;
 	margin: 0;
 	padding: 0;
+}
+
+.content-head {
+	margin: 20px 0;
+	outline: solid 1px red;
+	height: 200px;
+    padding: 0;
+}
+
+.project-container {
+	outline: solid 1px red;
+    margin: 20px 8%;
+    height: auto;
+    padding: 0;
+}
+
+.proj-img {
+	width: 40%;
+    height: 350px;
+    float: left;
+}
+
+.proj-lang {
+	height: 25%;
+    width: 100%;
+    float: right;
+}
+
+.proj-desc {
+    padding: 10px 10px 10px 0;
+    height: 50%;
+    width: 100%;
+    float: right;
+    overflow: hidden;
+}
+
+.proj-form {
+    height: 25%;
+    width: 100%;
+    float: right;
+}
+
+.proj-form form input {
+    margin-left: 40%;
+}
+
+#content-container {
+    height: 100%;
+    width: 100%;
+}
+
+.footer-nav {
+    font-size: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+#footer-container {
+    width: 100%;
+    height: 75px;
+}
+
+.placeholder {
+    width: 100%;
+    height: 100;
+    margin: 0;
+    padding: 0;
+}
+
+.project-form {
+}
+
+.view-button {
+    height: 50px;
+    width: 100px;
+    text-transform: uppercase;
+}
+.proj-content-cotnainer {
+    margin: 0 auto;
+    float: left;
+    height: 350px;
+    width: 60%;
+    outline: solid 1px red;
+}
+
+.proj-desc p {
+    margin-left: 10px;
+}
+
+.about-content-head {
+    margin: 20px 0;
+    outline: solid 1px red;
+    height: 30%;
+    padding: 0;
+    
+}
+
+#form-container {
+    background: rgba(0, 255, 29, 0.71);
+    height: 500px;
+    width: 400px;
+    outline: solid 1px red;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
 }

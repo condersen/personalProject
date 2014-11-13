@@ -1,4 +1,6 @@
 <?php include 'templates/headerTemplate.php'; ?>
+<?php include 'backend/projectFunctions.php'; ?>
+<?php $projects = get_project(); ?>
 <!-- end head -->
 <div id="content-container">
     <div class="container-fluid">
@@ -7,10 +9,12 @@
         </div>
     </div>
     <div class="container-fluid">
+        <?php foreach($projects as $project); { ?> 
         <div class="project-container col-md-10">
             <div class="proj-img">
                 <img src="http://placehold.it/450x350" class="placeholder" height="100%" width="100%" />
             </div>
+            
             <div class="proj-content-cotnainer">
                 <div class="proj-desc">
                     <p>
@@ -18,10 +22,8 @@
                     </p>
                 </div>
                 <div class="proj-lang">
-                    <ul>
-                        <li>HTML</li>
-                        <li>PHP</li>
-                        <li>JAVASCRIPT</li>
+                	<ul>
+                        <li></li>
                     </ul>
                 </div>
                 <div class="proj-form">
@@ -31,6 +33,7 @@
                 </div>
             </div>
         </div>
+        <?php } ?>
     </div>
 </div>
 <!-- end content container -->

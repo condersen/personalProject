@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php require_once 'constants.php'; ?><!DOCTYPE html>
 <html lang="en">
 
 <head>
